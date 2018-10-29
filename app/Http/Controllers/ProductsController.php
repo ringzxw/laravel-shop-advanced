@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Exceptions\InvalidRequestException;
 use App\Models\Category;
+use App\Services\CategoryService;
 use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\OrderItem;
